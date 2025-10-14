@@ -23,7 +23,7 @@ color: purple;
 }
 
 .question{
-  color: blueviolet;
- border: 5px;
- border-color: teal;
+  border-style: dotted;
+ border-color: aquamarine;
+ color: pink;
 }
