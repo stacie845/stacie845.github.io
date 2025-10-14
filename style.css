@@ -18,10 +18,12 @@ body {
 }  */
 
 .name{
-colour: purple;
+color: purple;
+ 
 }
 
 .question{
- color: yellow;
- border-color: blueviolet;
+  color: blueviolet;
+ border: 5px;
+ border-color: teal;
 }
