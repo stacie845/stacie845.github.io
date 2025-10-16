@@ -12,6 +12,7 @@ top: 0%;
   height: 30px;
   background-color: blue;
   margin: auto;
+  z-index: 1;
 }
 #header p, h2{
   display:inline;
@@ -23,7 +24,12 @@ top: 0%;
       margin: auto;
       background-color: aquamarine;
     }
-
+ #child{
+   position: aboslute;
+   width: 75%;
+   heigh: 350px;
+   background color: pink
+ }
 
     
   </style>
@@ -32,8 +38,6 @@ top: 0%;
   <h1>CSS: Sizing, Positioning & Selectors</h1>
 <div id="header">
 <h2>I'm Sticky</h2>
-<p><i>Text colour: #020122 </i></p>
-<p><i>Background colour: #7b9e89</i></p>
   <div id="parent">
 <h3>3 things you learned </h3>
 <p>how to design a website</p> <p>how to use css </p> <p>what is a div, etc </p>
@@ -41,9 +45,6 @@ top: 0%;
 <h3>2 things you would like to know more about</h3>
 <p>how to use a div </p> <p>how to use padding and stuff</p>
   <div id="fixed">
-<p>colour: #fc9e4f</p>
-<p>height: auto</p>
-<p>width: 30%</p>
 </div>
 <div id="relative">
 <h3>1 thing you are confused about</h3>
