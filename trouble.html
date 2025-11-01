@@ -4,37 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alpaca Adventures</title>
-  <link rel="stylesheet" href="more.css">
+  <link rel="stylesheet" href="more.css"> <!-- changed the href to more.css so the css will apply to iy-->
 </head>
 <body>
 
-  <div id="sidebar">
+<div id="sidebar">
     <h2>🦙 Alpaca Adventures</h2>
-    <h2>Name</h2>
+    <h2>Stacie</h2>
     <ul>
-      <li><a href="#home">Home</a></li>
+      <li><a href="#home">Home</a></li> <!-- added a # to the home-->
       <li><a href="#wool">Wool</a></li>
       <li><a href="#herds">Herd Life</a></li>
-      <li><a href="#fun">Fun Facts</a></li>
+      <li><a href="#fun">Fun Facts</a></li> <!-- missing closing li tag-->
     </ul>
-  </div> <!-- missing div closing tag which did not let the cointainer be created-->
+  </div>
 <div id="content">
 <div id="home" class="section light">
       <h1>Welcome to Alpaca Adventures</h1>
       <p>Alpacas live in the mountains of Peru and are known for their soft wool and gentle personalities. They travel in groups called herds.</p>
-</div>
- <div id="wool" class="section dark">
+</div> <!-- missing div closing tag-->
+ <div id="wool" class="section dark"> <!-- put the quotation marks so the id would be created-->
       <h2>Wonderful Wool</h2> <!-- missing h2 closing tag which prevents the header from being made-->
-      <p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p>
+      <p>Alpaca wool is light, warm, and water-resistant. It's sheared every year to make cozy clothing.</p> <!-- put p tag both opening and closing so it will show up-->
  <div class="wool-box">
-       <p>This box demonstrates <strong>absolute positioning</strong>.</p>
+       <p>This box demonstrates <strong>absolute positioning</strong>.</p> 
 
         <div class="wool-detail">
-          <p>I'm a smaller box positioned inside the larger one!</p>
+          <p>I'm a smaller box positioned inside the larger one!</p> <!-- moved p tag here to be more organized and for it to work properly -->
         </div>
       </div>
     </div> <!-- missing div closing tag-->
 
-  </div> 
-</body> <!--missing body closing tag so now all the code will show -->
-</html> <!--missing html closing tag -->
+  <div id="herds" class="section light">
+<h2>The Herd Life</h2>
+<p>Alpacas are social animals and hum to each other to communicate. They also have a
+leader that helps keep order in the group.</p>
+</div>
+<div id="fun" class="section dark">
+  <h2>Fun Facts</h2>
+  <ul>
+    <li>Alpacas can live up to 20 years. </li> <!-- moved closing li tag -->
+    <li>They rarely spit at people — only other alpacas!</li>
+    <li>Each alpaca has a unique “hum” sound.</li> 
+</ul>
+</div>
+<div id="footer">
+  <p>© 2025 Alpaca Adventures</p>
+</div>
+
+</body>
+</html>
