@@ -1,16 +1,13 @@
-/* ✅ Fixed font-family syntax and removed wrong quote placement */
+
 body {
   font-family: "Trebuchet MS", sans-serif;
   margin: 0;
   color: #3b2b0a;
-}
+} /* missing bracket, now the code will work and apply*/
 
-/* ✅ Changed .sidebar to #sidebar to match your HTML ID */
-/* ✅ Fixed 'top: yes;' → 'top: 0;' */
-/* ✅ Removed extra closing brace that broke the CSS */
-#sidebar {
+#sidebar /*changed .sidebar to #sidebar to match HTML ID */ {
   position: fixed;
-  top: 0;
+  top: 0; /* fixed 'top: yes; to top: 0; because yes is not a unit */
   left: 0;
   width: 220px;
   height: 100%;
@@ -20,7 +17,7 @@ body {
 }
 
 #sidebar h2 {
-  color: white;
+  color: white; /*changed it to a actual color*/
   text-align: center;
 }
 
@@ -48,10 +45,9 @@ body {
   background-color: #fdf9f4;
 }
 
-/* ✅ Added missing 'px' units and semicolons */
+
 .section {
-  padding: 50px;
-  margin-bottom: 50px;
+  padding: 50px; /* added missing unit, so now it will apply*/margin-bottom: 50px; /* added missing semicolons for it to apply */
   border-radius: 10px;
 }
 
@@ -59,17 +55,15 @@ body {
   background-color: #fff8e6;
 }
 
-/* ✅ Fixed typo: changed '.dork' → '.dark' to match HTML */
-/* ✅ Ensured color styling included for readability */
-.dark {
+.dark /* changed .dork to .dark to match what was written in the html */ {
   background-color: #e7cba9;
   color: #3b2b0a;
 }
 
-/* ✅ Added missing colon after 'position' */
-/* ✅ Cleaned up formatting and spacing */
+
+
 .wool-box {
-  position: relative;
+  position: relative; /* put the colon infront of the position for the attribute to apply*/
   background-color: #f3e0b6;
   padding: 30px;
   margin-top: 25px;
@@ -86,14 +80,10 @@ body {
   border-radius: 5px;
 }
 
-#footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #d8b382;
-}
 
 #footer {
 text-align: center;
 padding: 20px;
 background-color: #d8b382;
+color: white;
 }
