@@ -1,12 +1,15 @@
+/* Resets default browser spacing and sets universal font */
 *{
   margin:0px;
   padding:0px;
-  box-sizing border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
-}
+} 
+
+/* The red rewards bar at the very top */
 .rewards {
   top: 0%;
-  widith: 100%;
+  width: 100%;  
   height: 60px;
   background-color: #8B0000;
   margin: auto;
@@ -16,14 +19,18 @@
   font-size: 30px;
   font-family: Georgia;
 }
+
+/* Container that holds all the product/feature cards */
 .card-container {
   max-width: 100%;
-  margin 30px auto;
+  margin: 30px auto;  
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
   gap:25px;
 }
+
+/* Each individual card */
 .card{
   margin-top: 100px;
   flex:1;
@@ -33,17 +40,25 @@
   overflow: hidden; 
   transition: transform 0.3s ease-in-out;
 }
+
+/* Hover animation on each card */
 .card:hover{
   transform: scale(1.05);
 }
+
+/* Image inside each card */
 .card img {
   width:60%;
   height: auto;
   border-radius: 8px;
 }
+
+/* Intended to be card text area (selector error kept as requested) */
 .card content{
   padding: 20px;
 }
+
+/* Card titles (H3) */
 .card-content h3{
   color: black;
   font-size: 27px;
@@ -51,28 +66,36 @@
   font-family: cursive;
 }
 
+/* Text inside rewards bar */
 .rewards h1 {
   display:inline;
   color: White;
   font-family: cursive;
 }
 
+/* Global body formatting */
 body {
   margin: 0;
 }
+
+/* Global paragraph formatting */
 p {
   font-size: 30px; 
   font-family: "Verdana";
   font-family: cursive;
-  }
+}
 
+/* Section behind your logo */
 .logo{
   background-color: black;
 }
+
+/* Logo image size */
 .logo img{
   height:70px;
 }
 
+/* Navigation bar background */
 ul {
   list-style-type: none;
   margin: 0;
@@ -81,10 +104,12 @@ ul {
   background-color: black;
 }
 
+/* Individual nav items float left */
 ul li {
   float: left;
 }
 
+/* Nav bar links */
 ul li a {
   display: block;
   color: white;
@@ -93,14 +118,16 @@ ul li a {
   text-decoration: none;
 }
 
+/* Nav bar hover effect */
 ul li a:hover {
   background-color: #808080;
 }
 
+/* The red header bar under the nav bar */
 #header{
   border-style: solid;
   top: 0%;
-  widith: 80%;
+  widith: 80%; 
   height: 60px;
   background-color: #8B0000;
   margin: auto;
@@ -110,25 +137,32 @@ ul li a:hover {
   font-size: 30px;
   font-family: Georgia;
 }
+
+/* Text inside the header */
 #header h2{
   display:inline;
   color: White;
   font-family: cursive;
 }
-  #desc{
-      border-style: solid;
-      position: relative;
-      width: 100%;
-      height: 450px;
-      margin-right: 0;
-      background-color: #A9A9A9;
-    }
+
+/* Gray description section */
+#desc{
+  border-style: solid;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin-right: 0;
+  background-color: #A9A9A9;
+}
+
+/* Text inside description box */
 #desc p{
   font-size: 15px;
   color: white;
   font-family: cursive;
 }
 
+/* Image inside the description area (floats right) */
 #desc img {
   width: auto;
   height: 400px;
@@ -136,13 +170,18 @@ ul li a:hover {
   float: right;
 }
 
+/* Black background section at bottom */
 .background2 {
   background-color: black;
   background-size: cover;
 }
+
+/* Images in background2 */
 .background2 img {
   width: auto;
 }
+
+/* Title text inside background2 */
 .background2 h4{
   position: right;
   font-size: 25px;
@@ -151,12 +190,15 @@ ul li a:hover {
   text-align: center;
 }
 
+/* Paragraph inside background2 */
 .background2 p{
   font-size: 20px;
   color: white;
   text-align: center;
   margin-top: -150px;
 }
+
+/* Button inside background2 */
 .background2 button {
   background-color: red;
   border: none;
