@@ -157,12 +157,12 @@ ul li a:hover {
 
 /* Text inside description box */
 #desc p{
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   font-family: cursive;
 }
 
-/* Image inside the description area (floats right) */
+/* Image inside the description area */
 #desc img {
   width: auto;
   height: 400px;
