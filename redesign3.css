@@ -18,7 +18,7 @@
 }
 .card-container {
   max-width: 100%;
-  margin 30px auto;
+  margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
@@ -131,7 +131,7 @@ ul li a:hover {
   color: white;
   padding: 15px 32px;
   margin-top: 15px;
-  margin-left: 46%;
+  margin-left: 50%;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
