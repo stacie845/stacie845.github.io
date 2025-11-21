@@ -1,0 +1,140 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing border-box;
+  font-family: sans-serif;
+}
+.rewards {
+  top: 0%;
+  widith: 100%;
+  height: 60px;
+  background-color: #8B0000;
+  margin: auto;
+  z-index: 1;
+  padding: 20px 0;
+  text-align: left;
+  font-size: 30px;
+  font-family: Georgia;
+}
+.card-container {
+  max-width: 100%;
+  margin 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  gap:35px;
+}
+.card{
+  margin-top: 100px;
+  flex:1;
+  background-color:#fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.05);
+}
+.card img {
+  width:90%;
+  height: auto;
+  border-radius: 8px;
+ 
+}
+.card content{
+  padding: 20px;
+}
+.card-content h3{
+  color: black;
+  font-size: 27px;
+  margin-bottom: 10px;
+  font-family: cursive;
+  text-align: center;
+}
+.card-content button {
+  background-color: #8B0000;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 15px;
+  margin-left: 38%;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #808080;
+}
+
+.logo{
+  background-color: black;
+}
+.logo img{
+  height:70px;
+}
+
+.sale{
+  background-color:black;
+  text-align: center;
+}
+.sale h1{
+  color: white;
+  font-size: 50px;
+}
+.background2 {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  width: 100%; 
+  margin-top: 15px;
+}
+.background2 img {
+  width: auto;
+}
+.background2 h4{
+  position: right;
+  font-size: 25px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+.background2 p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-top: -150px;
+}
+.background2 button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-top: 15px;
+  margin-left: 46%;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
