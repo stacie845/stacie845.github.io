@@ -41,7 +41,7 @@
   height: auto;
   border-radius: 8px;
 }
-.card content{
+.card-content{
   padding: 20px;
 }
 .card-content h3{
@@ -163,7 +163,7 @@ ul li a:hover {
   color: white;
   padding: 15px 32px;
   margin-top: 15px;
-  margin-left: 50%;
+  margin: 15px auto 0;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
