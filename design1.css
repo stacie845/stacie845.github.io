@@ -32,7 +32,7 @@ ul li a:hover {
   background-image: url('https://media.glassdoor.com/sqll/4417003/spoke-o-motion-squarelogo-1627023812427.png');
   background-size: cover;
    background-position: center;
-   height: 100vh; /* Full viewport height */
+   height: 100vh; 
    width: 100%; 
 }
 
@@ -42,7 +42,7 @@ ul li a:hover {
   height: 300px;
 }
 .sign h1{
-  color: white;
+  color: red;
   font-family: cursive;
   font-size: 50px;
 }
