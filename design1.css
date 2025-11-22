@@ -1,9 +1,12 @@
+/*Styling for the background so the image will blend in better*/
 .logo{
   background-color: black;
 }
+/*Styling for the image above the nav bar*/
 .logo img{
   height:70px;
 }
+/*Styling for the nav bar and sets the layout for it*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -11,11 +14,11 @@ ul {
   overflow: hidden;
   background-color: black;
 }
-
+/*Allows the nav bar text to go on the left rather than the right*/
 ul li {
   float: left;
 }
-
+/*Styling for the nav bar buttons*/
 ul li a {
   display: block;
   color: white;
@@ -23,11 +26,11 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*When hovering over the nav bar it will now change colors*/
 ul li a:hover {
   background-color: #808080;
 }
-
+/*Styling for logo div class*/
 #background {
   background-image: url('https://media.glassdoor.com/sqll/4417003/spoke-o-motion-squarelogo-1627023812427.png');
   background-size: cover;
@@ -35,12 +38,13 @@ ul li a:hover {
    height: 100vh; 
    width: 100%; 
 }
-
+/*Styling for big image at the home screen and allows the image to blend in more seamlessly with the black background*/
 .sign {
   background-color: black;
   text-align: center;
   height: 300px;
 }
+/*Styling for the h1 tag below the image*/
 .sign h1{
   color: red;
   font-family: cursive;
