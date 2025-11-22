@@ -1,9 +1,9 @@
+/* sets a basic layout for the page*/
 *{
   margin:0px;
   padding:0px;
-  box-sizing: border-box;
-  font-family: sans-serif;
 }
+/* This is for the header that says "rewards"*/
 .rewards {
   top: 0%;
   width: 100%;
@@ -16,13 +16,16 @@
   font-size: 30px;
   font-family: Georgia;
 }
+/* This holds all the cards and allows me to do basic styling for the layout of them*/
 .card-container {
   max-width: 100%;
+  margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
   gap:25px;
 }
+/* Styles the cards*/
 .card{
   margin-top: 100px;
   flex:1;
@@ -32,46 +35,48 @@
   overflow: hidden; 
   transition: transform 0.3s ease-in-out;
 }
+/* Card will have a little animation when you hover over it*/
 .card:hover{
   transform: scale(1.05);
 }
+/* Styling for the card image*/
 .card img {
   width:60%;
   height: auto;
   border-radius: 8px;
 }
-.card-content{
-  padding: 20px;
-}
+/* Card styling for the h3 element*/
 .card-content h3{
   color: black;
   font-size: 27px;
   margin-bottom: 10px;
   font-family: cursive;
 }
-
+/* Styling for the h1 element in the rewards banner*/
 .rewards h1 {
   display:inline;
   color: White;
   font-family: cursive;
 }
-
+/*Styling for everything within the body*/
 body {
   margin: 0;
 }
+/*Styling for the p tag element*/
 p {
   font-size: 30px; 
   font-family: "Verdana";
   font-family: cursive;
   }
-
+/*Styling for logo div class*/
 .logo{
   background-color: black;
+  /*Styling for the img within the logo div class and just sets the height*/
 }
 .logo img{
   height:70px;
 }
-
+/*Styling for nav bar, this sets the design for it*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -79,11 +84,11 @@ ul {
   overflow: hidden;
   background-color: black;
 }
-
+/*Styling for nav bar text and allows it to float left*/
 ul li {
   float: left;
 }
-
+/*Styling for nav bar text within*/
 ul li a {
   display: block;
   color: white;
@@ -91,15 +96,14 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*Styling for the nav bar so when you hover over it, it will change color (to a grey I think)*/
 ul li a:hover {
   background-color: #808080;
 }
-
+/*Styling for header id which is the parent id for the divs*/
 #header{
   border-style: solid;
   top: 0%;
-  widith: 80%;
   height: 60px;
   background-color: #8B0000;
   margin: auto;
@@ -107,13 +111,14 @@ ul li a:hover {
   padding: 20px;
   text-align: left;
   font-size: 30px;
-  font-family: Georgia;
 }
+/*Styling for h2 within the header div id*/
 #header h2{
   display:inline;
   color: White;
   font-family: cursive;
 }
+/*Styling for the desc which is the child element within the header, this is setting the layout for the text and stuff*/
   #desc{
       border-style: solid;
       position: relative;
@@ -122,47 +127,50 @@ ul li a:hover {
       margin-right: 0;
       background-color: #A9A9A9;
     }
+/*Styling for p tag in the desc div class*/
 #desc p{
   font-size: 20px;
   color: white;
   font-family: cursive;
 }
-
+/*Styling for img in the class*/
 #desc img {
   width: auto;
   height: 400px;
   margin: 10px;
   float: right;
 }
-
+/*Styling for the footer at the bottom*/
 .background2 {
   background-color: black;
   background-size: cover;
 }
+/*This is the Spoke O'Motion logo in the footer*/
 .background2 img {
   width: auto;
 }
+/*Styling for h4 in the footer*/
 .background2 h4{
-  position: right;
   font-size: 25px;
   color: white;
   font-family: cursive;
   text-align: center;
 }
-
+/*Styling for p text within the footer*/
 .background2 p{
   font-size: 20px;
   color: white;
   text-align: center;
   margin-top: -150px;
 }
+/*Styling for button that links to the Spoke O'Motion facebook page*/
 .background2 button {
   background-color: red;
   border: none;
   color: white;
   padding: 15px 32px;
   margin-top: 15px;
-  text-align: center;
+  margin: 15px auto 0 auto;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
